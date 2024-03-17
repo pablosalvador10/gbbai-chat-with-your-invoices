@@ -1,4 +1,4 @@
-name: my-template-environment
+name: chat-with-your-data
 channels:
   - conda-forge
   - defaults
@@ -8,4 +8,3 @@ dependencies:
   - pip:
     - -r requirements.txt
     - -r requirements-codequality.txt
-    - -r requirements-pipelines.txt
